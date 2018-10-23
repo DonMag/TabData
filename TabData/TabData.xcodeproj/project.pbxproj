@@ -13,6 +13,7 @@
 		7C2D08A520779B2A00FC3A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2D08A320779B2A00FC3A04 /* LaunchScreen.storyboard */; };
 		7C2D08AD20779E8600FC3A04 /* MainForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2D08AC20779E8600FC3A04 /* MainForecastViewController.swift */; };
 		7C2D08AF20779E9300FC3A04 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2D08AE20779E9300FC3A04 /* InputViewController.swift */; };
+		7CBD0A94207CE1B100DECE2C /* MyCustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD0A93207CE1B100DECE2C /* MyCustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7C2D08A620779B2A00FC3A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C2D08AC20779E8600FC3A04 /* MainForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainForecastViewController.swift; sourceTree = "<group>"; };
 		7C2D08AE20779E9300FC3A04 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		7CBD0A93207CE1B100DECE2C /* MyCustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7C2D089E20779B2A00FC3A04 /* Main.storyboard */,
 				7C2D08AC20779E8600FC3A04 /* MainForecastViewController.swift */,
 				7C2D08AE20779E9300FC3A04 /* InputViewController.swift */,
+				7CBD0A93207CE1B100DECE2C /* MyCustomTabBarController.swift */,
 				7C2D08A120779B2A00FC3A04 /* Assets.xcassets */,
 				7C2D08A320779B2A00FC3A04 /* LaunchScreen.storyboard */,
 				7C2D08A620779B2A00FC3A04 /* Info.plist */,
@@ -141,6 +144,7 @@
 			files = (
 				7C2D08AD20779E8600FC3A04 /* MainForecastViewController.swift in Sources */,
 				7C2D089B20779B2A00FC3A04 /* AppDelegate.swift in Sources */,
+				7CBD0A94207CE1B100DECE2C /* MyCustomTabBarController.swift in Sources */,
 				7C2D08AF20779E9300FC3A04 /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

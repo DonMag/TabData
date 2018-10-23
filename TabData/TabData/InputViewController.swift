@@ -17,28 +17,28 @@ class InputViewController: UIViewController {
 
 		// make sure we're in a UITabBarController
 		if let tabVC = self.tabBarController {
-			
+
 			// make sure the TabBarVC has VCs
 			if let tabVCControllers = tabVC.viewControllers {
-				
+
 				// make sure the first tab hold a UINavigationController
 				if let navVC = tabVCControllers[0] as? UINavigationController {
-					
+
 					// make sure the first VC is an instance of MainForecastViewController
 					if let mainVC = navVC.viewControllers[0] as? MainForecastViewController {
-						
+
 						// "pass" the entered values
 						if let lat = Double(latitudeTextField.text!) {
 							mainVC.latPassed = lat
 						}
-						
+
 						if let lng = Double(longitudeTextField.text!) {
 							mainVC.lonPassed = lng
 						}
-						
+
 						// switch to the first tab
 						tabVC.selectedIndex = 0
-						
+
 					}
 				}
 			}
